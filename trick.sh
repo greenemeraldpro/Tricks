@@ -7,6 +7,8 @@ echo -e '\e[92;1m
     | | |  | | (__|   <\__ \_|
     |_|_|  |_|\___|_|\_\___(_)
 
+  Coded by turnLFT
+
 \e[37m[1]\e[32m      Cmatrix
 \e[37m[2]\e[32m      Nokia Snake
 \e[37m[3]\e[32m      Tetris
