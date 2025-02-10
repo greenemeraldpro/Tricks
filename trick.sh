@@ -12,7 +12,10 @@ echo -e '\e[92;1m
 \e[37m[1]\e[32m      Cmatrix
 \e[37m[2]\e[32m      Nokia Snake
 \e[37m[3]\e[32m      Tetris
-
+\e[37m[4]\e[32m      Toilet (Banner maker)
+\e[37m[5]\e[32m      Looping y
+\e[37m[6]\e[32m      Fortune
+\e[37m[7]\e[32m      Cowsay
 
 
 
@@ -49,6 +52,33 @@ cd Tools
 git clone https://github.com/psykulsk/tetri.sh.git
 cd tetri.sh
 bash tetri.sh
+
+elif [[ $number == 4 ]]; then
+clear
+sleep 3
+sudo apt install toilet
+clear
+toilet
+
+elif [[ $number == 5 ]]; then
+clear
+sleep 3
+sudo apt install yes
+yes
+
+elif [[ $number == 6 ]]; then
+clear
+sleep 3
+sudo apt install fortune
+fortune 
+
+elif [[ $number == 7 ]]; then
+clear
+sleep 3
+sudo apt install cowsay -y
+echo -e "Just control+c and type cowsay (the name you like)!"
+sleep 4
+exit
 
 else
          echo -e "You entered the wrong code.."
