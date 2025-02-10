@@ -64,18 +64,23 @@ elif [[ $number == 5 ]]; then
 clear
 sleep 3
 sudo apt install yes
+clear
+sleep 3
 yes
 
 elif [[ $number == 6 ]]; then
 clear
 sleep 3
 sudo apt install fortune
+clear
+sleep 3
 fortune 
 
 elif [[ $number == 7 ]]; then
 clear
 sleep 3
 sudo apt install cowsay -y
+clear
 echo -e "Just control+c and type cowsay (the name you like)!"
 sleep 4
 exit
